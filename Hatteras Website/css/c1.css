@@ -1,0 +1,378 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+
+    margin: 0px;
+}
+
+img {
+    width: 100%
+}
+
+/* Start of Nav Bar */
+.navbar {
+    background-color:rgb(13, 21, 31);
+    text-align: center;
+    color: white;
+
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: 60px;
+    
+}
+
+
+
+.button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: white;
+
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+    padding: 30px;
+    padding-top: 18px;
+}
+
+
+
+.logo {
+    grid-column: 1 / span 2;
+    background-color: rgb(13, 67, 88);
+    color: white;
+    
+    padding: 10px;
+
+    text-decoration: none;
+
+    font-family: 'Saira', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+li {
+   
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.a {
+    grid-column: 3 / span 2;
+}
+
+.b {
+    grid-column: 5 / span 2;
+}
+
+.c {
+    grid-column: 7 / span 2;
+}
+
+.d {
+    grid-column: 9 / span 2;
+}
+
+.e {
+    grid-column: 11 / span 2;
+}
+
+.f {
+    grid-column: 13 / span 2;
+}
+
+/* End of Nav Bar */
+
+
+
+/* Start sub header */
+
+
+.subheader {
+    padding: 38px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Adamina', serif;
+    font-weight: 200;
+    font-size: 45px;
+}
+
+h3 {
+    letter-spacing: 2px;
+
+    font-weight: 400;
+    color: rgba(131, 112, 4, 0.685);
+}
+
+hr {
+    width: 6%;
+    height: 2px;
+    color: gold;
+    background-color: rgba(116, 99, 5, 0.685);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* End of sub header */
+
+.line {
+    background-color: rgb(218, 216, 216);
+    padding: 10px;
+}
+
+/* Start of Content */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 0px;
+}
+
+.interior {
+    width: 50%;
+    
+}
+
+.title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+
+    color: rgba(131, 112, 4, 0.685);
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    padding-top: 170px;
+}
+
+.text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+
+    color: rgb(13, 67, 88);
+
+    border: solid 2px black;
+    border-width: 1px;
+
+    text-align: center;
+    
+    letter-spacing: 2px;
+
+    padding: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(13, 67, 88);
+}
+
+.box {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.x {
+    width: 50%;
+}
+
+.y {
+    width: 50%;
+}
+
+.z {
+    width: 50%;
+}
+
+/* End of Content */
+
+.header2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+
+    padding: 50px;
+
+    text-align: center;
+}
+
+/* Start of Sub Content */
+
+.content2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 50px 80px 200px 50px 80px;
+}
+
+.model {
+    width: 280px;
+    height: 110px;
+
+    padding-top: 50px;
+    padding-left:180px;
+}
+
+
+.brand {
+    text-align: center;
+    
+    font-weight: 800; 
+    letter-spacing: 2px;
+    color: rgba(133, 114, 6, 0.685);
+}
+
+.detail {
+    padding-left: 150px;
+    padding-right: 150px;
+
+    letter-spacing: 1px;
+
+    font-size: 14px;
+    text-align: center;
+}
+
+.gray {
+    background-color: rgb(216, 216, 216);
+}
+
+/* End of Sub Content */
+
+/* Start of Forms */
+
+h2 {
+    font-family: 'Adamina', serif;
+    font-weight: 200;
+    font-size: 25px;
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    background-color: rgb(13, 67, 88);
+    color: white;
+
+    margin: 0px;
+    padding: 90px;
+}
+
+.form {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+
+    
+    padding: 30px;
+}
+/* End of Forms */
+
+/* Start of Footer */
+.footer {
+    text-align: center;
+
+    font-family: 'Saira', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+
+    padding-top: 30px;
+
+    color:white;
+    background-color: black;
+}
+
+.address {
+    text-align: center;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    padding: 10px;
+    
+
+    color:white;
+    background-color: black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40  px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+   
+  }
+
+  .social {
+      text-align: center;
+      background-color: black;
+      
+      padding: 15px;
+  }
+  
+  .fa-instagram {
+    background: black;
+    color: rgba(133, 114, 6, 0.685);
+
+  }
+
+  .fa-facebook {
+    background: black;
+    color: rgba(133, 114, 6, 0.685);
+  }
+  
+  .fa-twitter {
+    background: black;
+    color: rgba(133, 114, 6, 0.685);
+  }
+
+  .fa-youtube {
+    background: black;
+    color: rgba(133, 114, 6, 0.685);
+  }
+
+  .fa-pinterest {
+    background: black;
+    color: rgba(133, 114, 6, 0.685);
+  }
+
+  .havoc {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+   text-align: center;
+
+   color: rgba(255, 255, 255, 0.548);
+  }
+
+  .havoc2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+   text-align: center;
+
+   color: rgba(255, 255, 255, 0.548);
+
+   padding-bottom: 60px;
+  }
+
+  /* End of Footer */
